@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    font-size: 62.5%;
+}
+body{
+
+    background-color: #121214;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    display: grid;
+}
+.timer span{
+
+    color: white;
+    font-size: 8.8rem;
+}
+.timer{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+}
+button img{
+
+    width: clamp(4rem, 5rem + 2vw, 7rem);
+}
+button{
+
+    background-color: transparent;
+    border: none;
+}
+.controls{
+
+    background-color: #42D3FF21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: clamp(10rem, 10rem + 30vw ,22.8rem);
+    height: 11rem;
+    gap: 3.2rem;
+    border-radius: 9999px;
+}
+.hidden{
+
+    display: none;
+}
+main{
+
+    align-self: end;
+    justify-self: center;
+
+} 
+footer{
+
+    align-self: end;
+    margin-right: 3.6rem;
+    margin-bottom: 3.6rem;
+    justify-self: end;
+}
